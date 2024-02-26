@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+}
+
+.about-me, .contact-me {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-me h2, .contact-me h2 {
+    margin-top: 0;
+}
+
+.contact-me a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-me a:hover {
+    text-decoration: underline;
+}
